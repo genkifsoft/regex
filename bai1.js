@@ -12,3 +12,15 @@ data.map(str => {
         console.log(str); 
     }
 })
+
+let data1 = [
+    'gray',
+    'grey',
+    'groy',
+    'goei',
+]
+data1.map(str=> {
+    if (str.match(/gr[a,e]/g)) {
+        console.log(str);
+    }
+})
